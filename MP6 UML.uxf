@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>230</y>
+      <w>270</w>
+      <h>370</h>
+    </coordinates>
+    <panel_attributes>Player
+--
++ rollsCount:integer
++ money:integer
++ point:integer
++ roll:integer
++ current_die:integer
++ cur_point:integer
++ play_choice:integer
++ play_on:integer
++ menu_choice:integer
+--
++ Player()
++ rollDice():integer
++ isWinner(bet):
++ isLoser(bet):
++ isDraw(bet):
++ getRollCount():integer
++ pointPlay(bet):
++ passPlay(bet):
++ dontPassPlay(bet):
++ printBorder():
++ printBalance():
++ atStartup():
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
