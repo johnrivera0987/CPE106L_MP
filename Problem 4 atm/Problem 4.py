@@ -1,10 +1,3 @@
-"""
-File: atm.py
-This module defines the ATM class, which provides a window
-for bank customers to perform deposits, withdrawals, and check
-balances.
-"""
-
 from breezypythongui import EasyFrame
 from bank import Bank, createBank
 
@@ -72,7 +65,7 @@ class ATM(EasyFrame):
                 self.loginButton["command"] = self.logout
                 return False
             elif(self.failureCount >= 3):
-                self.statusField.setText("Calling the cops!")
+                self.statusField.setText("Calling the police!")
                 self.loginButton["command"] = None
                 return True
             
