@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>40</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Doctor
+--
+- hedges : String[]
+- qualifiers : String[]
+- replacements : String[]
+--
++ reply(sentence)
++ changePerson(sentence)
++ greeting()
++ signoff()</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
